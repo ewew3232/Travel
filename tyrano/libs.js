@@ -373,7 +373,7 @@
         });
     };
 
-    $.loadText = function(file_path, callback) {
+$.loadText = function(file_path, callback) {
         
         /*
         var httpObj = jQuery.get(file_path + "?" + Math.floor(Math.random() * 1000000), null, function(obj) {
@@ -401,15 +401,14 @@
         */
         
         $.ajax({
-            url: file_path,// Math.floor(Math.random() * 1000000),
+            url: file_path + "?" + Math.floor(Math.random() * 1000000),
             cache: false,
             success: function(text){
                 order_str = text;
                 callback(order_str);
             },
-    error:function(){
-      alert("file not found:"+file_path);
-      callback("");
+            error:function(){
+                callback("");
             }
         });
         
