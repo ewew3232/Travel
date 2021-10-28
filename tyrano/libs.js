@@ -408,8 +408,7 @@
                 callback(order_str);
             },
             error:function(){
-                alert("file not found:"+file_path);
-                callback("");
+               
             }
         });
         

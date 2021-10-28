@@ -369,7 +369,13 @@
 頭の中で、彼との会話が渦巻いている。[r][l][r]
 弱まる風と、傾く日。[l][r]
 こんなときは、決まってカノジョと顔を合わせる。[l][r]
-もっとも、センも言っていたように、カノジョには顔が無いのだけれど。[r][l][r]
+もっとも、センも言っていたように、[l][r]
+カノジョには顔が無いのだけれど。[l][r]
+
+[_tb_end_text]
+
+[cm  ]
+[tb_start_text mode=2 ]
 名前は『リュア』。[l][r]
 カノジョといつ出会って、[l][r]
 どういう関係なのかは一言では表せない。[l][r]
@@ -377,6 +383,7 @@
 カノジョこそが、ボクの休息だということだ。[l][r]
 [_tb_end_text]
 
+[cm  ]
 [tb_hide_message_window  ]
 [bg  time="2000"  method="crossfade"  storage="gure-.png"  ]
 [tb_image_show  time="2000"  x="244"  y="0"  storage="default/map1_ryua.png"  width="512"  height="512"  name="img_133"  ]
