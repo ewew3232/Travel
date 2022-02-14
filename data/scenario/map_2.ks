@@ -1,5 +1,6 @@
 [_tb_system_call storage=system/_map_2.ks]
 
+[stopbgm  time="2000"  fadeout="true"  ]
 [macro name=S]
 
 [position layer=message0 width=800 height=620 top=20 left=80]

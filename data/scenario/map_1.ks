@@ -1,5 +1,6 @@
 [_tb_system_call storage=system/_map_1.ks]
 
+[stopbgm  time="2000"  fadeout="true"  ]
 [bg  time="1000"  method="crossfade"  storage="bg_map1.png"  ]
 [playse  volume="70"  time="1000"  buf="0"  storage="Wind-Synthetic02-4.m4a"  ]
 [tb_start_tyrano_code]
