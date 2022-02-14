@@ -30,38 +30,10 @@
 [eval exp="f.map01_sen= f.map01_o1 + f.map01_o2 + f.map01_o3"]
 [_tb_end_tyrano_code]
 
-[jump  storage="map_1.ks"  target="*o1_1"  cond="f.map01_o1==1"  ]
-[jump  storage="map_1.ks"  target="*o1_2"  cond="f.map01_o1==2"  ]
-[s  ]
-*o1_1
-
 [button  storage="map_1.ks"  target="*map1_o1"  graphic="gif/p_star001_a005.gif"  width="19"  height="18"  x="600"  y="100"  name="img_7"  ]
-[jump  storage="map_1.ks"  target="*o2_1"  cond="f.map01_o2==1"  ]
-[jump  storage="map_1.ks"  target="*o2_2"  cond="f.map01_o2==2"  ]
-[s  ]
-*o1_2
-
-[jump  storage="map_1.ks"  target="*o2_1"  cond="f.map01_o2==1"  ]
-[jump  storage="map_1.ks"  target="*o2_2"  cond="f.map01_o2==2"  ]
-[s  ]
-*o2_1
-
 [button  storage="map_1.ks"  target="*map1_o2"  graphic="gif/p_star001_a006.gif"  width="19"  height="18"  x="500"  y="550"  name="img_8"  ]
-[jump  storage="map_1.ks"  target="*o3_1"  cond="f.map01_o3==1"  ]
-[jump  storage="map_1.ks"  target="*o3_2"  cond="f.map01_o3==2"  ]
-[s  ]
-*o2_2
-
-[jump  storage="map_1.ks"  target="*o3_1"  cond="f.map01_o3==1"  ]
-[jump  storage="map_1.ks"  target="*o3_2"  cond="f.map01_o3==2"  ]
-[s  ]
-*o3_1
-
 [button  storage="map_1.ks"  target="*map1_o3"  graphic="gif/p_star001_a007.gif"  width="19"  height="18"  x="100"  y="400"  name="img_9"  ]
 [tb_image_hide  time="1000"  ]
-[s  ]
-*o3_2
-
 [jump  storage="map_1.ks"  target="*map1_sen"  cond="f.map01_sen==6"  ]
 [s  ]
 *map1_o1
