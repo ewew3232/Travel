@@ -169,11 +169,21 @@ body{
 }
 
 /*次へのクリックを促すアイコン*/
-
 .img_next{
-    padding-left:3px;
+position: relative; /* 今の位置を基準 */
+top: 3px; /* 上から10px */
+right: 3px; /* 左から20px */
+	-webkit-animation: next 1s ease-in-out infinite alternate;
+	animation: next 1s ease-in-out infinite alternate;
 }
-
+@-webkit-keyframes next {
+	0% { opacity:1; }
+	100% { opacity:0; }
+}
+@keyframes next {
+	0% { opacity:1; }
+	100% { opacity:0; }
+}
 /*テキストボックスの共通スタイル*/
 .text_box{
 
