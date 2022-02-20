@@ -22,6 +22,6 @@
 
 		;CG・回想用の共通項目
 		[eval exp="sf._tb_cg_noimage='toumei_transparent.png'" ]
-		[eval exp="sf._tb_replay_noimage='toumei_transparent.png'" ]
+		[eval exp="sf._tb_replay_noimage='not_open.PNG'" ]
 
 		

@@ -172,7 +172,7 @@ body{
 .img_next{
 position: relative; /* 今の位置を基準 */
 top: 3px; /* 上から10px */
-right: 3px; /* 左から20px */
+right: -2px; /* 左から20px */
 	-webkit-animation: next 1s ease-in-out infinite alternate;
 	animation: next 1s ease-in-out infinite alternate;
 }

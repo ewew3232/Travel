@@ -68,6 +68,11 @@
 *map1_o1
 
 [cm  ]
+[tb_replay_start  ]
+[tb_start_tyrano_code]
+[S]
+[_tb_end_tyrano_code]
+
 [tb_start_tyrano_code]
 [freeimage layer="0" time="500"]
 [_tb_end_tyrano_code]
@@ -86,6 +91,7 @@
 今日は、なにかいいことがありそうだ。[l][r]
 [_tb_end_text]
 
+[tb_replay  id="MAP1_Handbird"  ]
 [tb_eval  exp="f.map01_o1=2"  name="map01_o1"  cmd="="  op="t"  val="2"  val_2="undefined"  ]
 [cm  ]
 [tb_hide_message_window  ]
@@ -93,6 +99,15 @@
 [jump  storage="map_1.ks"  target="*map1_s"  ]
 [s  ]
 *map1_o2
+
+[tb_replay_start  ]
+[tb_start_tyrano_code]
+[S]
+[_tb_end_tyrano_code]
+
+[tb_start_tyrano_code]
+[freeimage layer="0" time="500"]
+[_tb_end_tyrano_code]
 
 [cm  ]
 [tb_start_tyrano_code]
@@ -114,13 +129,16 @@
 [cm  ]
 [tb_hide_message_window  ]
 [tb_image_hide  time="1000"  ]
+[tb_replay  id="MAP1_Picturebook"  ]
 [bg  time="2000"  method="crossfade"  storage="bg_map1.png"  ]
 [jump  storage="map_1.ks"  target="*map1_s"  ]
 [s  ]
 *map1_o3
 
+[tb_replay_start  ]
 [cm  ]
 [tb_start_tyrano_code]
+[S]
 [freeimage layer="0" time="500"]
 [_tb_end_tyrano_code]
 
@@ -139,6 +157,7 @@
 [tb_eval  exp="f.map01_o3=2"  name="map01_o3"  cmd="="  op="t"  val="2"  val_2="undefined"  ]
 [cm  ]
 [tb_hide_message_window  ]
+[tb_replay  id="MAP1_Skyskin"  ]
 [bg  time="2000"  method="crossfade"  storage="bg_map1.png"  ]
 [jump  storage="map_1.ks"  target="*map1_s"  ]
 [s  ]
@@ -148,6 +167,11 @@
 [button  storage="map_1.ks"  target="*map1_sen_start"  graphic="gif/circle.gif"  width="24"  height="24"  x="838"  y="497"  _clickable_img=""  name="img_55"  ]
 [s  ]
 *map1_sen_start
+
+[tb_replay_start  ]
+[tb_start_tyrano_code]
+[S]
+[_tb_end_tyrano_code]
 
 [tb_start_tyrano_code]
 [freeimage layer="0" time="500"]
@@ -368,6 +392,7 @@
 
 [cm  ]
 [tb_hide_message_window  ]
+[tb_replay  id="MAP1_SEN"  ]
 [bg  time="1000"  method="crossfade"  storage="bg_map1.png"  ]
 [tb_start_tyrano_code]
 [showmenubutton]
@@ -377,7 +402,12 @@
 [s  ]
 *map1_ryua
 
+[tb_replay_start  ]
 [cm  ]
+[tb_start_tyrano_code]
+[S]
+[_tb_end_tyrano_code]
+
 [tb_start_tyrano_code]
 [freeimage layer="0" time="500"]
 [clearfix]
@@ -662,6 +692,7 @@
 
 [tb_hide_message_window  ]
 [cm  ]
+[tb_replay  id="MAP1_RYUA"  ]
 [mask  time="2000"  effect="fadeIn"  color="0x000000"  ]
 [tb_image_hide  time="1000"  ]
 [jump  storage="map_2.ks"  target=""  ]
@@ -773,6 +804,7 @@
 
 [tb_hide_message_window  ]
 [cm  ]
+[tb_replay  id="MAP1_RYUA"  ]
 [mask  time="2000"  effect="fadeIn"  color="0x000000"  ]
 [tb_image_hide  time="1000"  ]
 [jump  storage="map_2.ks"  target=""  ]

@@ -106,8 +106,10 @@
 *map2_o1
 
 [cm  ]
+[tb_replay_start  ]
 [tb_start_tyrano_code]
 [freeimage layer="0" time="500"]
+[S]
 [_tb_end_tyrano_code]
 
 [bg  time="2000"  method="crossfade"  storage="map02_o1.png"  ]
@@ -128,14 +130,17 @@
 [tb_eval  exp="f.map02_o1=2"  name="map02_o1"  cmd="="  op="t"  val="2"  val_2="undefined"  ]
 [cm  ]
 [tb_hide_message_window  ]
+[tb_replay  id="MAP2_ryu"  ]
 [bg  time="2000"  method="crossfade"  storage="bg_map2.png"  ]
 [jump  storage="map_2.ks"  target="*map2_s"  ]
 [s  ]
 *map2_o2
 
 [cm  ]
+[tb_replay_start  ]
 [tb_start_tyrano_code]
 [freeimage layer="0" time="500"]
+[S]
 [_tb_end_tyrano_code]
 
 [bg  time="2000"  method="crossfade"  storage="gure-.png"  ]
@@ -156,14 +161,17 @@
 [cm  ]
 [tb_hide_message_window  ]
 [tb_image_hide  time="1000"  ]
+[tb_replay  id="MAP2_yokosima"  ]
 [bg  time="2000"  method="crossfade"  storage="bg_map2.png"  ]
 [jump  storage="map_2.ks"  target="*map2_s"  ]
 [s  ]
 *map2_o3
 
 [cm  ]
+[tb_replay_start  ]
 [tb_start_tyrano_code]
 [freeimage layer="0" time="500"]
+[S]
 [_tb_end_tyrano_code]
 
 [bg  time="2000"  method="crossfade"  storage="gure-.png"  ]
@@ -184,6 +192,7 @@
 [cm  ]
 [tb_hide_message_window  ]
 [tb_image_hide  time="1000"  ]
+[tb_replay  id="MAP2_tyou"  ]
 [bg  time="2000"  method="crossfade"  storage="bg_map2.png"  ]
 [jump  storage="map_2.ks"  target="*map2_s"  ]
 [s  ]
@@ -194,8 +203,13 @@
 [s  ]
 *map2_sen_start
 
+[tb_replay_start  ]
 [tb_start_tyrano_code]
 [freeimage layer="0" time="0"]
+[_tb_end_tyrano_code]
+
+[tb_start_tyrano_code]
+[S]
 [_tb_end_tyrano_code]
 
 [cm  ]
@@ -286,7 +300,7 @@
 [tb_start_text mode=2 ]
 #ハカ
 オレは、ハカ＝へべ。[l][r]
-お前の名前？[l][r]
+お前の名前は？[l][r]
 [_tb_end_text]
 
 [cm  ]
@@ -992,6 +1006,7 @@
 [_tb_end_text]
 
 [cm  ]
+[tb_replay  id="MAP2_HAKA"  ]
 [mask  time="2000"  effect="fadeIn"  color="0x000000"  ]
 [jump  storage="map_3.ks"  target=""  ]
 [s  ]
@@ -1582,6 +1597,7 @@
 [_tb_end_text]
 
 [cm  ]
+[tb_replay  id="MAP2_HAKA"  ]
 [mask  time="2000"  effect="fadeIn"  color="0x000000"  ]
 [jump  storage="map_3.ks"  target=""  ]
 [s  ]
@@ -2137,6 +2153,8 @@
 [_tb_end_text]
 
 [cm  ]
+[tb_hide_message_window  ]
+[tb_replay  id="MAP2_HAKA"  ]
 [mask  time="2000"  effect="fadeIn"  color="0x000000"  ]
 [jump  storage="map_3.ks"  target=""  ]
 [s  ]
