@@ -26,18 +26,18 @@
 
 [hidemenubutton]
 
-[button  name="role_button"  role="skip"  graphic="../others/plugin/theme_tyrano_05/image/button/skip.png"  enterimg="../others/plugin/theme_tyrano_05/image/button/skip2.png"  x="35"  y="610"  storage=""  target=""  ]
-[button  name="role_button"  role="auto"  graphic="../others/plugin/theme_tyrano_05/image/button/auto.png"  enterimg="../others/plugin/theme_tyrano_05/image/button/auto2.png"  x="110"  y="610"  storage=""  target=""  ]
-[button  name="role_button"  role="save"  graphic="../others/plugin/theme_tyrano_05/image/button/save.png"  enterimg="../others/plugin/theme_tyrano_05/image/button/save2.png"  x="185"  y="610"  storage=""  target=""  ]
-[button  name="role_button"  role="load"  graphic="../others/plugin/theme_tyrano_05/image/button/load.png"  enterimg="../others/plugin/theme_tyrano_05/image/button/load2.png"  x="260"  y="610"  storage=""  target=""  ]
-[button  name="role_button"  role="quicksave"  graphic="../others/plugin/theme_tyrano_05/image/button/qsave.png"  enterimg="../others/plugin/theme_tyrano_05/image/button/qsave2.png"  x="335"  y="610"  storage=""  target=""  ]
-[button  name="role_button"  role="quickload"  graphic="../others/plugin/theme_tyrano_05/image/button/qload.png"  enterimg="../others/plugin/theme_tyrano_05/image/button/qload2.png"  x="410"  y="610"  storage=""  target=""  ]
-[button  name="role_button"  role="backlog"  graphic="../others/plugin/theme_tyrano_05/image/button/log.png"  enterimg="../others/plugin/theme_tyrano_05/image/button/log2.png"  x="485"  y="610"  storage=""  target=""  ]
-[button  name="role_button"  role="window"  graphic="../others/plugin/theme_tyrano_05/image/button/close.png"  enterimg="../others/plugin/theme_tyrano_05/image/button/close2.png"  x="560"  y="610"  storage=""  target=""  ]
-[button  name="role_button"  role="fullscreen"  graphic="../others/plugin/theme_tyrano_05/image/button/screen.png"  enterimg="../others/plugin/theme_tyrano_05/image/button/screen2.png"  x="635"  y="610"  storage=""  target=""  ]
-[button  name="role_button"  role="menu"  graphic="../others/plugin/theme_tyrano_05/image/button/menu.png"  enterimg="../others/plugin/theme_tyrano_05/image/button/menu2.png"  x="710"  y="610"  storage=""  target=""  ]
-[button  name="role_button"  role="sleepgame"  graphic="../others/plugin/theme_tyrano_05/image/button/sleep.png"  enterimg="../others/plugin/theme_tyrano_05/image/button/sleep2.png"  x="785"  y="610"  storage="../others/plugin/theme_tyrano_05/config.ks"  target=""  ]
-[button  name="role_button"  role="title"  graphic="../others/plugin/theme_tyrano_05/image/button/title.png"  enterimg="../others/plugin/theme_tyrano_05/image/button/title2.png"  x="860"  y="610"  storage=""  target=""  ]
+[button  name="img_12"  role="skip"  graphic="../others/plugin/theme_tyrano_05/image/button/skip.png"  enterimg="../others/plugin/theme_tyrano_05/image/button/skip2.png"  x="35"  y="610"  storage=""  target=""  ]
+[button  name="img_13"  role="auto"  graphic="../others/plugin/theme_tyrano_05/image/button/auto.png"  enterimg="../others/plugin/theme_tyrano_05/image/button/auto2.png"  x="110"  y="610"  storage=""  target=""  ]
+[button  name="img_14"  role="save"  graphic="../others/plugin/theme_tyrano_05/image/button/save.png"  enterimg="../others/plugin/theme_tyrano_05/image/button/save2.png"  x="185"  y="610"  storage=""  target=""  ]
+[button  name="img_15"  role="load"  graphic="../others/plugin/theme_tyrano_05/image/button/load.png"  enterimg="../others/plugin/theme_tyrano_05/image/button/load2.png"  x="260"  y="610"  storage=""  target=""  ]
+[button  name="img_16"  role="quicksave"  graphic="../others/plugin/theme_tyrano_05/image/button/qsave.png"  enterimg="../others/plugin/theme_tyrano_05/image/button/qsave2.png"  x="335"  y="610"  storage=""  target=""  ]
+[button  name="img_17"  role="quickload"  graphic="../others/plugin/theme_tyrano_05/image/button/qload.png"  enterimg="../others/plugin/theme_tyrano_05/image/button/qload2.png"  x="410"  y="610"  storage=""  target=""  ]
+[button  name="img_18"  role="backlog"  graphic="../others/plugin/theme_tyrano_05/image/button/log.png"  enterimg="../others/plugin/theme_tyrano_05/image/button/log2.png"  x="485"  y="610"  storage=""  target=""  ]
+[button  name="img_19"  role="window"  graphic="../others/plugin/theme_tyrano_05/image/button/close.png"  enterimg="../others/plugin/theme_tyrano_05/image/button/close2.png"  x="560"  y="610"  storage=""  target=""  ]
+[button  name="img_20"  role="fullscreen"  graphic="../others/plugin/theme_tyrano_05/image/button/screen.png"  enterimg="../others/plugin/theme_tyrano_05/image/button/screen2.png"  x="635"  y="610"  storage=""  target=""  ]
+[button  name="img_21"  role="menu"  graphic="../others/plugin/theme_tyrano_05/image/button/menu.png"  enterimg="../others/plugin/theme_tyrano_05/image/button/menu2.png"  x="710"  y="610"  storage=""  target=""  ]
+[button  name="img_22"  role="sleepgame"  graphic="../others/plugin/theme_tyrano_05/image/button/sleep.png"  enterimg="../others/plugin/theme_tyrano_05/image/button/sleep2.png"  x="785"  y="610"  storage="../others/plugin/theme_tyrano_05/config.ks"  target=""  ]
+[button  name="img_23"  role="title"  graphic="../others/plugin/theme_tyrano_05/image/button/title.png"  enterimg="../others/plugin/theme_tyrano_05/image/button/title2.png"  x="860"  y="610"  storage=""  target=""  ]
 [endmacro]
 
 [tb_clear_images]
@@ -54,13 +54,14 @@
 
 [tb_keyconfig  flag="0"  ]
 [tb_hide_message_window  ]
-[playbgm  volume="30"  time="1500"  loop="true"  storage="kuturogi_piano.mp3"  fadein="true"  ]
+[playbgm  volume="30"  time="1500"  loop="true"  storage="kuturogi_piano.ogg"  fadein="true"  ]
 [bg  time="1000"  method="fadeIn"  storage="title_high.png"  ]
 *title
 
-[tb_image_show  time="2000"  storage="default/rogo.png"  width="540"  height="200"  x="50"  y="80"  _clickable_img=""  name="img_7"  ]
-[button  storage="title_screen.ks"  target="*start"  x="180"  y="350"  width="239"  graphic="hazimeru.png"  height="71"  ]
-[button  storage="title_screen.ks"  target="*load"  x="200"  y="450"  width="200"  graphic="tuduki.png"  height="76"  ]
+[tb_image_show  time="2000"  storage="default/rogo.png"  width="540"  height="200"  x="50"  y="80"  _clickable_img=""  name="img_33"  ]
+[button  storage="title_screen.ks"  target="*start"  x="180"  y="300"  width="239"  graphic="hazimeru.png"  height="71"  name="img_34"  ]
+[button  storage="title_screen.ks"  target="*load"  x="200"  y="400"  width="200"  graphic="tuduki.png"  height="76"  name="img_35"  ]
+[button  storage="title_screen.ks"  target="*recall"  graphic="Trecall.png"  width="336"  height="79"  x="140"  y="500"  _clickable_img=""  ]
 [s  ]
 *start
 
@@ -77,3 +78,11 @@
 
 [jump  target="*title"  storage=""  ]
 [s  ]
+*recall
+
+[mask  time="500"  effect="fadeIn"  color="0x000000"  ]
+[tb_image_hide  time="1000"  ]
+[stopbgm  time="1000"  fadeout="true"  ]
+[tb_keyconfig  flag="1"  ]
+[bg  time="1000"  method="crossfade"  storage="recall.png"  ]
+[jump  storage="recall.ks"  target=""  ]
