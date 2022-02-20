@@ -1,13 +1,11 @@
 //ティラノビルダーによる自動ビルド　
-;debugMenu.visible=false
-;configSave=webstorage
 ;global.config_version=4.50
 ;System.title=Travel
 ;projectID=Travel
 ;game_version=0.0
 ;ScreenRatio=fix
 ;patch_apply_auto=true
-;ScreenCentering=false
+;ScreenCentering=true
 ;useCamera=true
 ;scWidth=960
 ;scHeight=640
@@ -30,6 +28,7 @@
 ;configVisible=false
 ;configLeft=-1
 ;configTop=-1
+;configSave=webstorage
 ;configThumbnail=false
 ;configThumbnailQuality=middle
 ;configSaveSlotNum=5
@@ -58,6 +57,7 @@
 ;mt=16
 ;mw=960-32
 ;mh=640-32
+;debugMenu.visible=false
 ;frameColor=0x000000
 ;frameOpacity=128
 ;defaultAutoReturn=true
