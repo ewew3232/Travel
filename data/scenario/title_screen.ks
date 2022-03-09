@@ -1,6 +1,7 @@
 [_tb_system_call storage=system/_title_screen.ks]
 
-
+[bg  time="1000"  method="crossfade"  storage="gure-.png"  ]
+[tb_ptext_show  x="380"  y="220"  size="48"  color="0xd4c792"  time="1000"  face="serif,'游明朝'"  text="TAP&nbsp;to&nbsp;Start"  edge="undefined"  shadow="undefined"  anim="true"  fadeout="false"  wait="false"  in_effect="bounceIn"  out_effect="bounceOut"  ]
 *BOF
 
 [hidemenubutton]
