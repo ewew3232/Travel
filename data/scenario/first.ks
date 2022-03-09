@@ -31,6 +31,11 @@
 $('.loadingWrap').css({'display':'none'});
 [endscript]
 
+[bg  time="1000"  method="crossfade"  storage="gure-.png"  ]
+[tb_ptext_show  x="380"  y="220"  size="48"  color="0xd4c792"  time="1000"  face="serif,'游明朝'"  text="TAP to Start"  edge="undefined"  shadow="undefined"  anim="true"  fadeout="false"  wait="false"  in_effect="bounceIn"  out_effect="bounceOut"  ]
+
+[l]
+
 ;タイトル画面表示
 [jump storage="title_screen.ks"]
 
