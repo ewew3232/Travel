@@ -36,6 +36,11 @@ $('.loadingWrap').css({'display':'none'});
 
 [l]
 
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[tb_ptext_hide  time="1"  ]
+[tb_image_hide  time="1"  ]
+[mask_off  time="1000"  effect="fadeOut"  ]
+
 ;タイトル画面表示
 [jump storage="title_screen.ks"]
 
