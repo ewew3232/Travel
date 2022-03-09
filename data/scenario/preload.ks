@@ -1,7 +1,5 @@
-[_tb_system_call storage=system/_preview.ks ]
+[_tb_system_call storage=system/_preload.ks]
 
-[mask time=10]
-[mask_off time=10]
 [bg  time="1000"  method="crossfade"  storage="gure-.png"  ]
 [tb_ptext_show  x="380"  y="220"  size="48"  color="0xd4c792"  time="1000"  face="serif,'游明朝'"  text="Loading..."  edge="undefined"  shadow="undefined"  anim="true"  fadeout="false"  wait="false"  in_effect="bounceIn"  out_effect="bounceOut"  ]
 [tb_image_show  time="1000"  storage="default/asiato.gif"  width="960"  height="120"  x="0"  y="300"  _clickable_img=""  ]
