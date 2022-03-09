@@ -1,7 +1,6 @@
 [_tb_system_call storage=system/_title_screen.ks]
 
 [bg  time="1000"  method="crossfade"  storage="gure-.png"  ]
-[tb_ptext_show  x="380"  y="220"  size="48"  color="0xd4c792"  time="1000"  face="serif,'游明朝'"  text="TAP&nbsp;to&nbsp;Start"  edge="undefined"  shadow="undefined"  anim="true"  fadeout="false"  wait="false"  in_effect="bounceIn"  out_effect="bounceOut"  ]
 *BOF
 
 [hidemenubutton]
@@ -54,9 +53,11 @@
 [delay speed=60]
 [_tb_end_tyrano_code]
 
+[tb_ptext_show  x="320"  y="275"  size="48"  color="0xd4c792"  time="1000"  face="serif,'游明朝'"  text="TAP&nbsp;to&nbsp;Start"  edge="undefined"  shadow="undefined"  anim="true"  fadeout="false"  wait="false"  in_effect="bounceIn"  out_effect="bounceOut"  ]
 [tb_keyconfig  flag="0"  ]
 [tb_hide_message_window  ]
 [playbgm  volume="30"  time="1500"  loop="true"  storage="kuturogi_piano.ogg"  fadein="true"  ]
+[tb_ptext_hide  time="1000"  ]
 [bg  time="1000"  method="fadeIn"  storage="title_high.png"  ]
 *title
 
