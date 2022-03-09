@@ -23,6 +23,14 @@
 ;タイトルの設定
 ;[title name="now loading"]
 
+;必要に応じてローディング内に済ませておきたい処理を書いておく
+
+;ローディングを消す
+[wait time="1000"]
+[iscript]
+$('.loadingWrap').css({'display':'none'});
+[endscript]
+
 ;タイトル画面表示
 [jump storage="title_screen.ks"]
 
