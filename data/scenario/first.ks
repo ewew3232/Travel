@@ -26,22 +26,20 @@
 ;必要に応じてローディング内に済ませておきたい処理を書いておく
 
 ;ローディングを消す
-[wait time="1000"]
+[wait time="1"]
 [iscript]
 $('.loadingWrap').css({'display':'none'});
 [endscript]
 
-[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[mask  time="500"  effect="fadeIn"  color="0x000000"  ]
 [tb_ptext_hide  time="1"  ]
 [tb_image_hide  time="1"  ]
-[mask_off  time="1000"  effect="fadeOut"  ]
+[mask_off  time="500"  effect="fadeOut"  ]
 
 ;タイトル画面表示
 [jump storage="title_screen.ks"]
 
 ;--------------------------
-
-[s]
 
 
 
