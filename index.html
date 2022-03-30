@@ -24,12 +24,14 @@ width: 100%; /* 幅と高さを100％にし全体を覆い尽くす */
 height: 100%;
 }
 .loadingWrap p { /* Loading Now...の文字を表示するエリア */
+width: 100%;
 position: absolute;
 font-size: 28px;
 font-family: serif;
 color: #D4C792;
-top: 66%;
-left: 43%;
+top: 60%;
+right: 40px;
+text-align: center;
 }
 
 
@@ -37,6 +39,7 @@ left: 43%;
     width: 90px;
     height: 90px;
     position: absolute;
+    margin: 0 auto; 
     top: 50%;
     right: 50%;
 }
@@ -116,7 +119,7 @@ transform: scale3D(0, 0, 1);
 <div class="sk-cube sk-cube8"></div>
 <div class="sk-cube sk-cube9"></div>
 </div>
-<p>Loading Now...</p>
+<p>Now Loading...</p>
 </div>
 
 <script type="text/javascript" src="./tyrano/libs/jquery-3.4.1.min.js"></script>

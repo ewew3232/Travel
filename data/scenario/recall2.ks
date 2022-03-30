@@ -1,0 +1,8 @@
+[tb_clear_images][mask time=200][tb_replay_image_button  graphic="recall/map5_o1.png"  storage="map_5.ks"  target="*map5_o1"  role="sleepgame"  no_graphic="&sf._tb_replay_noimage"  time="1"  width="125"  height="100"  x="20"  y="70"  _tb_parts_type="replay_image_button"  id="MAP5_miageru"  ]
+[button  graphic="back.png"  storage="title_screen.ks"  target="return"  time="1"  width="47"  height="50"  x="900"  y="0"  _tb_parts_type="button"  ]
+[tb_replay_image_button  graphic="recall/map5_sen1.png"  storage="map_5.ks"  target="*map5_sen_start"  role="sleepgame"  no_graphic="&sf._tb_replay_noimage"  time="1"  width="125"  height="100"  x="620"  y="70"  _tb_parts_type="replay_image_button"  id="MAP5_SEN"  ]
+[tb_replay_image_button  graphic="recall/map5_o2.PNG"  storage="map_5.ks"  target="*map5_o2"  role="sleepgame"  no_graphic="&sf._tb_replay_noimage"  time="1"  width="125"  height="100"  x="220"  y="70"  _tb_parts_type="replay_image_button"  id="MAP5_flying_foot"  ]
+[tb_replay_image_button  graphic="recall/map5_o3.png"  storage="map_5.ks"  target="*map5_o3"  role="sleepgame"  no_graphic="&sf._tb_replay_noimage"  time="1"  width="125"  height="100"  x="420"  y="70"  _tb_parts_type="replay_image_button"  id="MAP5_horn"  ]
+[button  graphic="return.png"  storage="recall.ks"  target=""  time="1"  width="50"  height="50"  x="420"  y="0"  _tb_parts_type="button"  ]
+[mask_off time=200] 
+[s] 
